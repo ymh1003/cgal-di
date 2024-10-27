@@ -1,0 +1,9 @@
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/CGAL_Qt5_moc_and_resources.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/Spatial_searching_2.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/ALL_CGAL_TARGETS.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/cgal_check_build_system.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/compilation_of__CGAL_Qt5_moc_and_resources.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/edit_cache.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/rebuild_cache.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/CGAL_Qt5_moc_and_resources_autogen.dir
+/Users/yumenghe/CGAL-5.6.1/demo/Spatial_searching_2/CMakeFiles/Spatial_searching_2_autogen.dir

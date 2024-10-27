@@ -1,0 +1,1224 @@
+In file included from /Users/yumenghe/CGAL-5.6.1/examples/Classification/example_mesh_classification.cpp:6:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/Simple_cartesian.h:20:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/Cartesian_base.h:45:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/Direction_3.h:22:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/predicates/kernel_ftC3.h:23:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+    return (CGAL_NTS square(vx) + CGAL_NTS square(vy) + CGAL_NTS square(vz))/4;
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+In file included from /Users/yumenghe/CGAL-5.6.1/examples/Classification/example_mesh_classification.cpp:6:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/Simple_cartesian.h:20:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/Cartesian_base.h:45:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/Direction_3.h:22:
+In file included from /Users/yumenghe/CGAL-5.6.1/include/CGAL/predicates/kernel_ftC3.h:23:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+    return (CGAL_NTS square(vx) + CGAL_NTS square(vy) + CGAL_NTS square(vz))/4;
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/function_objects.h:1148:16: note: in instantiation of function template specialization 'CGAL::squared_areaC3<CGAL::double_it>' requested here
+        return squared_areaC3(p.x(), p.y(), p.z(),
+               ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/function_objects.h:1148:16: note: in instantiation of function template specialization 'CGAL::squared_areaC3<CGAL::double_it>' requested here
+        return squared_areaC3(p.x(), p.y(), p.z(),
+               ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/function_objects.h:1142:22: note: in instantiation of member function 'CGAL::CartesianKernelFunctors::Compute_squared_area_3<CGAL::Simple_cartesian<CGAL::double_it>>::operator()' requested here
+        return this->operator()(t.vertex(0), t.vertex(1), t.vertex(2));
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Triangle_3.h:111:12: note: in instantiation of member function 'CGAL::CartesianKernelFunctors::Compute_squared_area_3<CGAL::Simple_cartesian<CGAL::double_it>>::operator()' requested here
+    return R().compute_squared_area_3_object()(*this);
+           ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/function_objects.h:1142:22: note: in instantiation of member function 'CGAL::CartesianKernelFunctors::Compute_squared_area_3<CGAL::Simple_cartesian<CGAL::double_it>>::operator()' requested here
+        return this->operator()(t.vertex(0), t.vertex(1), t.vertex(2));
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Triangle_3.h:111:12: note: in instantiation of member function 'CGAL::CartesianKernelFunctors::Compute_squared_area_3<CGAL::Simple_cartesian<CGAL::double_it>>::operator()' requested here
+    return R().compute_squared_area_3_object()(*this);
+           ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:818:12: note: in instantiation of function template specialization 'CGAL::internal::centroid<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>>' requested here
+    return centroid(begin, end, k,(Value_type*) nullptr, tag);
+           ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:839:10: note: in instantiation of member function 'CGAL::internal::Dispatch_centroid_3<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Dimension_tag<2>>::operator()' requested here
+  return internal::Dispatch_centroid_3<InputIterator,K,Dimension_tag<d> >()(begin,end,k,tag);
+         ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:594:23: note: (skipping 1 context in backtrace; use -ftemplate-backtrace-limit=0 to see all)
+      Point c = CGAL::centroid(tr.begin(),
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:818:12: note: in instantiation of function template specialization 'CGAL::internal::centroid<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>>' requested here
+    return centroid(begin, end, k,(Value_type*) nullptr, tag);
+           ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:839:10: note: in instantiation of member function 'CGAL::internal::Dispatch_centroid_3<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Dimension_tag<2>>::operator()' requested here
+  return internal::Dispatch_centroid_3<InputIterator,K,Dimension_tag<d> >()(begin,end,k,tag);
+         ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:594:23: note: (skipping 1 context in backtrace; use -ftemplate-backtrace-limit=0 to see all)
+      Point c = CGAL::centroid(tr.begin(),
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:377:13: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::compute_triangles<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Default_diagonalize_traits<float>>' requested here
+        out.compute_triangles<FaceListGraph, DiagonalizeTraits>
+            ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:377:13: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::compute_triangles<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Default_diagonalize_traits<float>>' requested here
+        out.compute_triangles<FaceListGraph, DiagonalizeTraits>
+            ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:152:32: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::create_from_face_graph<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Mesh_neighborhood<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>::N_ring_neighbor_query, CGAL::Parallel_tag, CGAL::Default_diagonalize_traits<float>>' requested here
+        (Local_eigen_analysis::create_from_face_graph
+                               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/unique_ptr.h:689:30: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale::Scale' requested here
+  return unique_ptr<_Tp>(new _Tp(_VSTD::forward<_Args>(__args)...));
+                             ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:224:33: note: in instantiation of function template specialization 'std::make_unique<CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale, const CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>> &, CGAL::Iterator_range<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>::Index_iterator<CGAL::SM_Face_index>> &, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>> &, CGAL::Iso_cuboid_3<CGAL::Simple_cartesian<CGAL::double_it>> &, float &, int>' requested here
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:152:32: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::create_from_face_graph<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Mesh_neighborhood<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>::N_ring_neighbor_query, CGAL::Parallel_tag, CGAL::Default_diagonalize_traits<float>>' requested here
+        (Local_eigen_analysis::create_from_face_graph
+                               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/unique_ptr.h:689:30: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale::Scale' requested here
+  return unique_ptr<_Tp>(new _Tp(_VSTD::forward<_Args>(__args)...));
+                             ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:224:33: note: in instantiation of function template specialization 'std::make_unique<CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale, const CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>> &, CGAL::Iterator_range<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>::Index_iterator<CGAL::SM_Face_index>> &, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>> &, CGAL::Iso_cuboid_3<CGAL::Simple_cartesian<CGAL::double_it>> &, float &, int>' requested here
+    m_scales.emplace_back (std::make_unique<Scale> (m_input, m_range, m_point_map, m_bbox, voxel_size, 0));
+                                ^
+/Users/yumenghe/CGAL-5.6.1/examples/Classification/example_mesh_classification.cpp:65:    m_scales.emplace_back (std::make_unique<Scale> (m_input, m_range, m_point_map, m_bbox, voxel_size, 0));
+                                ^
+/Users/yumenghe/CGAL-5.6.1/examples/Classification/example_mesh_classification.cpp:65:21: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Mesh_feature_generator' requested here
+21: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Mesh_feature_generator' requested here
+  Feature_generator generator (mesh, face_point_map, number_of_scales);
+                    ^
+  Feature_generator generator (mesh, face_point_map, number_of_scales);
+                    ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22: note: candidate function
+    friend double_it operator/(double_it x, const float& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: note: candidate function
+    friend double_it operator/(double_it x, const double_it& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22: note: candidate function
+    friend double_it operator/(double_it x, const float& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: note: candidate function
+    friend double_it operator/(double_it x, const double_it& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, int)
+    return (CGAL_NTS square(vx) + CGAL_NTS square(vy) + CGAL_NTS square(vz))/4;
+                                                                            ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:    return (CGAL_NTS square(vx) + CGAL_NTS square(vy) + CGAL_NTS square(vz))/4;
+                                                                            ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, double)
+426:77: note: built-in candidate operator/(double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h426:77: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, long long)
+:426:77: note: built-in candidate operator/(double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, __int128)
+built-in candidate operator/(double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, unsigned int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, int)
+:426:77: note: built-in candidate operator/(long double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, int)
+426:77: note: built-in candidate operator/(unsigned long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, double)
+426:77: note: built-in candidate operator/(float, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: 426:77: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77426:77: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:: note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, unsigned long long)426:77: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, float)
+:426:77: note: built-in candidate operator/(long double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, long long)
+426:77: note: built-in candidate operator/(long double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, unsigned int)
+:426:77: note: built-in candidate operator/(long double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, unsigned long long)
+426:77: note: built-in candidate operator/(long double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(long double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, double)
+:426:77: note: built-in candidate operator/(int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426built-in candidate operator/(int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, long long)
+:77: note: built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, unsigned long long)
+426:77: note: built-in candidate operator/(int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, unsigned __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77::426:77: note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, __int128)
+:426:77: note: built-in candidate operator/(long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: :426:77: note: built-in candidate operator/(long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, float)
+:77: note: built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note:  note: built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, long long)
+built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(long long, unsigned __int128)
+:426:77: note: built-in candidate operator/(long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hbuilt-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, double)
+:426:77: note: built-in candidate operator/(__int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h426:77: note: built-in candidate operator/(__int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, __int128)
+:426:77: note: built-in candidate operator/(__int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, unsigned int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, float)
+:426:77: note: built-in candidate operator/(unsigned int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, double)
+built-in candidate operator/(unsigned int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, long double)
+built-in candidate operator/(unsigned int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:42677: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(unsigned int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, unsigned int)
+:426:77: note: built-in candidate operator/(unsigned int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hbuilt-in candidate operator/(unsigned int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, unsigned long long)
+:426:77: note: built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, double):77: note: built-in candidate operator/(unsigned long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77note: built-in candidate operator/(unsigned long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, __int128)
+:426:77: note: built-in candidate operator/(unsigned long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hbuilt-in candidate operator/(unsigned long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, unsigned long)
+:426:77: note: built-in candidate operator/(unsigned long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, double)
+426:77: note: built-in candidate operator/(unsigned long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, long double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, long)
+:426:77: note: built-in candidate operator/(unsigned long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77built-in candidate operator/(unsigned long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, unsigned long long): note: built-in candidate operator/(unsigned long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, float)
+:426:77: note: built-in candidate operator/(unsigned __int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426: note: built-in candidate operator/(unsigned __int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:77: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, long long)
+426:77: note: built-in candidate operator/(unsigned __int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: 426:77: note: built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77:built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426 note: built-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77::77: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:426:77: note: built-in candidate operator/(unsigned __int128, unsigned __int128)
+ note: built-in candidate operator/(unsigned __int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+   x = (px + qx + rx) / 3;
+       ~~~~~~~~~~~~~~ ^ ~
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/function_objects.h:2188:7: note: in instantiation of function template specialization 'CGAL::centroidC3<CGAL::double_it>' requested here
+      centroidC3(p.x(), p.y(), p.z(),
+      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:541:15: note: in instantiation of member function 'CGAL::CartesianKernelFunctors::Construct_centroid_3<CGAL::Simple_cartesian<CGAL::double_it>>::operator()' requested here
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+   x = (px + qx + rx) / 3;
+       ~~~~~~~~~~~~~~ ^ ~
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Cartesian/function_objects.h:2188:7: note: in instantiation of function template specialization 'CGAL::centroidC3<CGAL::double_it>' requested here
+      centroidC3(p.x(), p.y(), p.z(),
+      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:541:15: note: in instantiation of member function 'CGAL::CartesianKernelFunctors::Construct_centroid_3<CGAL::Simple_cartesian<CGAL::double_it>>::operator()' requested here
+    Point c = K().construct_centroid_3_object()(triangle[0],triangle[1],triangle[2]);
+              ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:    Point c = K().construct_centroid_3_object()(triangle[0],triangle[1],triangle[2]);
+              ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:818:12: note: in instantiation of function template specialization 'CGAL::internal::centroid<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>>' requested here
+818:12: note: in instantiation of function template specialization 'CGAL::internal::centroid<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>>' requested here
+    return centroid(begin, end, k,(Value_type*) nullptr, tag);
+           ^    return centroid(begin, end, k,(Value_type*) nullptr, tag);
+           ^
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:839:10: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/centroid.h:839:10: note: in instantiation of member function 'CGAL::internal::Dispatch_centroid_3<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Dimension_tag<2>>::operator()' requested here
+in instantiation of member function 'CGAL::internal::Dispatch_centroid_3<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Dimension_tag<2>>::operator()' requested here
+  return internal::Dispatch_centroid_3<InputIterator,K,Dimension_tag<d> >()(begin,end,k,tag);
+         ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:594:23: note: in instantiation of function template specialization 'CGAL::centroid<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>, 2>' requested here
+      Point c = CGAL::centroid(tr.begin(),
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:377:13: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::compute_triangles<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Default_diagonalize_traits<float>>' requested here
+        out.compute_triangles<FaceListGraph, DiagonalizeTraits>
+            ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:152:32: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::create_from_face_graph<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Mesh_neighborhood<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>::N_ring_neighbor_query, CGAL::Parallel_tag, CGAL::Default_diagonalize_traits<float>>' requested here
+        (Local_eigen_analysis::create_from_face_graph
+                               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/unique_ptr.h:689:30: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale::Scale' requested here
+  return internal::Dispatch_centroid_3<InputIterator,K,Dimension_tag<d> >()(begin,end,k,tag);
+         ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:594:23: note: in instantiation of function template specialization 'CGAL::centroid<CGAL::Triangle_3<CGAL::Simple_cartesian<CGAL::double_it>> *, CGAL::Simple_cartesian<CGAL::double_it>, 2>' requested here
+      Point c = CGAL::centroid(tr.begin(),
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Local_eigen_analysis.h:377:13: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::compute_triangles<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Default_diagonalize_traits<float>>' requested here
+        out.compute_triangles<FaceListGraph, DiagonalizeTraits>
+            ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:152:32: note: in instantiation of function template specialization 'CGAL::Classification::Local_eigen_analysis::create_from_face_graph<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Mesh_neighborhood<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>::N_ring_neighbor_query, CGAL::Parallel_tag, CGAL::Default_diagonalize_traits<float>>' requested here
+        (Local_eigen_analysis::create_from_face_graph
+                               ^
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/unique_ptr.h:689:30: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale::Scale' requested here
+  return unique_ptr<_Tp>(new _Tp(_VSTD::forward<_Args>(__args)...));
+                             ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:224:33: note: in instantiation of function template specialization 'std::make_unique<CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale, const CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>> &, CGAL::Iterator_range<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>::Index_iterator<CGAL::SM_Face_index>> &, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>> &, CGAL::Iso_cuboid_3<CGAL::Simple_cartesian<CGAL::double_it>> &, float &, int>' requested here
+  return unique_ptr<_Tp>(new _Tp(_VSTD::forward<_Args>(__args)...));
+                             ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/Classification/Mesh_feature_generator.h:224:33: note: in instantiation of function template specialization 'std::make_unique<CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Scale, const CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>> &, CGAL::Iterator_range<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>::Index_iterator<CGAL::SM_Face_index>> &, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>> &, CGAL::Iso_cuboid_3<CGAL::Simple_cartesian<CGAL::double_it>> &, float &, int>' requested here
+    m_scales.emplace_back (std::make_unique<Scale> (m_input, m_range, m_point_map, m_bbox, voxel_size, 0));
+                                ^
+    m_scales.emplace_back (std::make_unique<Scale> (m_input, m_range, m_point_map, m_bbox, voxel_size, 0));
+                                ^
+/Users/yumenghe/CGAL-5.6.1/examples/Classification/example_mesh_classification.cpp:65:21: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Mesh_feature_generator' requested here/Users/yumenghe/CGAL-5.6.1/examples/Classification/example_mesh_classification.cpp:65:21: note: in instantiation of member function 'CGAL::Classification::Mesh_feature_generator<CGAL::Simple_cartesian<CGAL::double_it>, CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>, CGAL::Classification::Face_descriptor_to_center_of_mass_map<CGAL::Surface_mesh<CGAL::Point_3<CGAL::Simple_cartesian<CGAL::double_it>>>>>::Mesh_feature_generator' requested here
+
+  Feature_generator generator (mesh, face_point_map, number_of_scales);
+                    ^
+  Feature_generator generator (mesh, face_point_map, number_of_scales);
+                    ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22: /Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22: note: candidate function
+note: candidate function
+    friend double_it operator/(double_it x, const float& y) {
+                     ^    friend double_it operator/(double_it x, const float& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: /Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: note: candidate function
+note: candidate function
+    friend double_it operator/(double_it x, const double_it& y) {
+                     ^    friend double_it operator/(double_it x, const double_it& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, int)
+   x = (px + qx + rx) / 3;
+                      ^
+   x = (px + qx + rx) / 3;
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, double)
+: note: built-in candidate operator/(double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, long double)
+: note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23note: built-in candidate operator/(double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, unsigned long)
+:138:23: note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: 138:23: note: built-in candidate operator/(double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138built-in candidate operator/(double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, int)
+:138:23: note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23note: built-in candidate operator/(long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, int):23: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, int)
+138:23: note: built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, float)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(float, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, long double)
+138:23: note: built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:23: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: : note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:  note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:  note: built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, double)note: built-in candidate operator/(long double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hnote: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: :138:23: note: built-in candidate operator/(long double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:note: built-in candidate operator/(long double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, __int128)
+138:23: note: built-in candidate operator/(long double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, unsigned int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, unsigned long long)
+ note: built-in candidate operator/(long double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, unsigned __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, double)
+138:23: note: built-in candidate operator/(int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, unsigned int)
+138:23: note: built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, unsigned long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, float)
+138:23: note: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h::23: note: built-in candidate operator/(long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, long)
+138:23: note: built-in candidate operator/(long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, long long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, __int128)
+note: built-in candidate operator/(long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, unsigned int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hnote: built-in candidate operator/(long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, unsigned long long)
+:138:23: note: built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, long double)
+138:23: note: built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, long long)
+138:23: note: built-in candidate operator/(long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, unsigned long)
+built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, double)
+138:23: note: built-in candidate operator/(__int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, long double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, long long)
+138:23: note: built-in candidate operator/(__int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, unsigned long)
+138:23: note: built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, unsigned long long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(unsigned int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, long double)
+:138:23: note: built-in candidate operator/(unsigned int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, __int128)
+:138:23: note: built-in candidate operator/(unsigned int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(unsigned int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note:  note: built-in candidate operator/(unsigned int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, double)
+138:23: note: built-in candidate operator/(unsigned long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, long double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, unsigned int)
+138:23: note: built-in candidate operator/(unsigned long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, unsigned long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: 138:23: note: built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:23: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: :23: note: built-in candidate operator/(unsigned long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138built-in candidate operator/(unsigned long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, long)
+:138:23: note: built-in candidate operator/(unsigned long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note:  note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, unsigned long)
+ note: built-in candidate operator/(unsigned long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned long long, unsigned __int128)
+:138:23: note: built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, float)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23note: built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(unsigned __int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, long long)
+:138:23: note: built-in candidate operator/(unsigned __int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23:built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138: note: built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h23: note: built-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+:138:23: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:138:23: note: built-in candidate operator/(unsigned __int128, unsigned __int128)
+built-in candidate operator/(unsigned __int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+   y = (py + qy + ry) / 3;
+       ~~~~~~~~~~~~~~ ^ ~
+   y = (py + qy + ry) / 3;
+       ~~~~~~~~~~~~~~ ^ ~
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22:/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22: note: candidate function
+ note: candidate function
+    friend double_it operator/(double_it x, const float& y) {
+    friend double_it operator/(double_it x, const float& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+: note: candidate function
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: note: candidate function
+candidate function
+    friend double_it operator/(double_it x, const double_it& y) {
+                     ^
+    friend double_it operator/(double_it x, const double_it& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, int)
+   y = (py + qy + ry) / 3;note: built-in candidate operator/(double, int)
+   y = (py + qy + ry) / 3;
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: 
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, float)
+built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, long long)
+139:23: note: built-in candidate operator/(double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: 139:23: note: built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(double, unsigned __int128)
+139:23: note: built-in candidate operator/(double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, int)
+: note: built-in candidate operator/(long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, int)
+:139:23: note: built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, double)
+:139:23: note: built-in candidate operator/(float, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, long long)
+:139:23: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: 139:23: note: built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(long double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, long double)
+139:23: note: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, __int128)
+built-in candidate operator/(long double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long double, unsigned __int128)
+139:23: note: built-in candidate operator/(long double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, float)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, long double)
+139:23: note: built-in candidate operator/(int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, __int128)
+139:23: note: built-in candidate operator/(int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23::139:23: note: built-in candidate operator/(int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h note: built-in candidate operator/(int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(int, unsigned __int128)
+:139:23: note: built-in candidate operator/(int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, double)
+139:23: note: built-in candidate operator/(long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, long double)
+: note: built-in candidate operator/(long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, unsigned long)
+:139:23: note: built-in candidate operator/(long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: 139:23: note: built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, double)
+:139:23: note: built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, __int128)
+139:23: note: built-in candidate operator/(long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, unsigned int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, unsigned long long)
+139:23: note: built-in candidate operator/(long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, unsigned __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(__int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, long)
+:139:23: note: built-in candidate operator/(__int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139built-in candidate operator/(__int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, unsigned int)
+:139:23: note: built-in candidate operator/(__int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, float)
+139:23: note: built-in candidate operator/(unsigned int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, long double):23: note: built-in candidate operator/(unsigned int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(unsigned int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, unsigned long)
+:139:23: note: built-in candidate operator/(unsigned int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h: note: built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, float)
+:139:23: note: built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:: note: built-in candidate operator/(unsigned long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, long long)
+139:23: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, unsigned long)
+:139:23: note: built-in candidate operator/(unsigned long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, double)
+139:23: note: built-in candidate operator/(unsigned long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, long double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23note: built-in candidate operator/(unsigned long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139: note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, unsigned int)
+:139:23: note: built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23built-in candidate operator/(unsigned long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, unsigned long long)
+: note: built-in candidate operator/(unsigned long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note:  note: built-in candidate operator/(unsigned __int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23:built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, long double)
+ note: built-in candidate operator/(unsigned __int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h139:23: note: built-in candidate operator/(unsigned __int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, __int128)
+:139:23: note: built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, unsigned long)
+139:23: note: built-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, unsigned long long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, unsigned __int128)
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:139:23: note: built-in candidate operator/(unsigned __int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+ error: use of overloaded operator '/' is ambiguous (with operand types 'double_it' and 'int')
+   z = (pz + qz + rz) / 3;
+       ~~~~~~~~~~~~~~ ^ ~
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:   z = (pz + qz + rz) / 3;
+       ~~~~~~~~~~~~~~ ^ ~
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:110:22:110:22: note: candidate function
+ note: candidate function
+    friend double_it operator/(double_it x, const float& y) {
+                     ^    friend double_it operator/(double_it x, const float& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:114:22: note: candidate function
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+    friend double_it operator/(double_it x, const unsigned int& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: /Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.h:91:22: note: candidate function
+note: candidate function
+    friend double_it operator/(double_it x, const double_it& y) {
+                     ^    friend double_it operator/(double_it x, const double_it& y) {
+                     ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, int)
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, int)
+   z = (pz + qz + rz) / 3;
+                      ^
+   z = (pz + qz + rz) / 3;
+                      ^
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, float)
+:140:23: note: built-in candidate operator/(double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:: note: built-in candidate operator/(double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, __int128)23: note: built-in candidate operator/(double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h23: note: built-in candidate operator/(double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: :140:23: note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:note: built-in candidate operator/(double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, unsigned long long)
+140:23: note: built-in candidate operator/(double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, unsigned __int128)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(long double, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, int):23: note: built-in candidate operator/(long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, int)
+140:23: note: built-in candidate operator/(__int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, int)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:23: note: built-in candidate operator/(unsigned long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(unsigned long long, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned __int128, int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: 140:23: note: built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(float, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(float, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:2323: note: built-in candidate operator/(float, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(float, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(float, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, __int128)
+:140:23: note: built-in candidate operator/(float, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:: note: built-in candidate operator/(float, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(float, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(float, unsigned __int128)
+140:23: note: built-in candidate operator/(float, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, float)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(long double, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(long double, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long double, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, long long)
+:140:23: note: built-in candidate operator/(long double, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:built-in candidate operator/(long double, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, unsigned int)
+140:23: note: built-in candidate operator/(long double, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, unsigned long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long double, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: 140:23: note: built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, long double)
+23: note: built-in candidate operator/(int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140built-in candidate operator/(int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, __int128)
+:140:23: note: built-in candidate operator/(int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140built-in candidate operator/(int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, unsigned long long)
+:140:23: note: built-in candidate operator/(int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: built-in candidate operator/(int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hnote: built-in candidate operator/(long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, double)
+:140:23: note: built-in candidate operator/(long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, long double)
+built-in candidate operator/(long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, unsigned long)
+:140:23: note: built-in candidate operator/(long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140built-in candidate operator/(long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, float)
+:140:23: note: built-in candidate operator/(long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, long long)
+140:23: note: built-in candidate operator/(long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, unsigned long)
+:140:23: note: built-in candidate operator/(long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, unsigned long long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, unsigned __int128)
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 140:23: note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:note: built-in candidate operator/(__int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, long)
+140:23: note: built-in candidate operator/(__int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, long long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, unsigned int)
+:140:23: note: built-in candidate operator/(__int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(__int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(__int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(__int128, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, float)
+140:23: note: built-in candidate operator/(unsigned int, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(unsigned int, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(unsigned int, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, __int128):23: note: built-in candidate operator/(unsigned int, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, unsigned int)
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, unsigned long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned int, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned int, unsigned __int128)
+:140:23: note: built-in candidate operator/(unsigned int, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140built-in candidate operator/(unsigned long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, long double)
+:140:23: note: built-in candidate operator/(unsigned long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(unsigned long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(unsigned long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, unsigned int)
+140:23: note: built-in candidate operator/(unsigned long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, unsigned long)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, unsigned long)
+
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:built-in candidate operator/(unsigned long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long, unsigned __int128)
+140:23: note: built-in candidate operator/(unsigned long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: 140:23: note: built-in candidate operator/(unsigned long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(unsigned long long, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note:  note: built-in candidate operator/(unsigned long long, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: built-in candidate operator/(unsigned long long, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(unsigned long long, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(unsigned long long, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned long long, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, unsigned long)
+:140:23: note: built-in candidate operator/(unsigned long long, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23:built-in candidate operator/(unsigned long long, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140 note: built-in candidate operator/(unsigned long long, unsigned __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned __int128, float)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, double)
+:140:23: note: built-in candidate operator/(unsigned __int128, double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, long double)/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, long double)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: 
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23note: built-in candidate operator/(unsigned __int128, long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140: note: built-in candidate operator/(unsigned __int128, long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:23: note: built-in candidate operator/(unsigned __int128, __int128)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, unsigned int)
+:140:23: note: built-in candidate operator/(unsigned __int128, unsigned int)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.hbuilt-in candidate operator/(unsigned __int128, unsigned long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+:140:23: note: built-in candidate operator/(unsigned __int128, unsigned long long)
+/Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: /Users/yumenghe/CGAL-5.6.1/include/CGAL/constructions/kernel_ftC3.h:140:23: note: built-in candidate operator/(unsigned __int128, unsigned __int128)
+built-in candidate operator/(unsigned __int128, unsigned __int128)
+4 errors generated.
+4 errors generated.
+make[2]: make[2]: *** [CMakeFiles/example_mesh_classification.dir/example_mesh_classification.cpp.o] Error 1
+*** [CMakeFiles/example_mesh_classification.dir/example_mesh_classification.cpp.o] Error 1
+make[1]: *** [CMakeFiles/example_mesh_classification.dir/all] Error 2
+make[1]: *** [CMakeFiles/example_mesh_classification.dir/all] Error 2
+make: make: *** [all] Error 2
+*** [all] Error 2

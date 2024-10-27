@@ -1,0 +1,4 @@
+{FP value: 1, FP error: 0}
+!={FP value: 1, FP error: 0}
+
+decomposition into 0 convex parts 

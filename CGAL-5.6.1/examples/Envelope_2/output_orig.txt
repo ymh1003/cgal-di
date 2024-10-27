@@ -1,0 +1,48 @@
+The convex hull of 14 input points: (5 4) (4 5) (2 5) (1 4) (2 2) (3 1) (4 2)
+0 --------------------------------------
+Edge:  [empty]
+Vertex (-1 3)
+Edge:  (x - 1)^2 + (y - 3)^2 = 4
+Vertex (2.22211 1.41683)
+Edge:  (x - 4)^2 + (y - 5)^2 = 16
+Vertex (4 1)
+Edge:  (x - 5)^2 + (y - 1)^2 = 1
+Vertex (6 1)
+Edge:  (x - 4)^2 + (y - 5)^2 = 16
+Vertex (8 5)
+Edge: [empty]
+Edge:  [empty]
+Vertex (-1 3)
+Edge:  (x - 1)^2 + (y - 3)^2 = 4
+Vertex (0 5)
+Edge:  (x - 4)^2 + (y - 5)^2 = 16
+Vertex (5.17712 8.82288)
+Edge:  (x - 6)^2 + (y - 7)^2 = 4
+Vertex (8 7)
+Edge: [empty]
+1 --------------------------------------
+Edge: [empty]
+Vertex (0 1): A
+Edge: A
+Vertex (1 2): B A
+Edge: A B
+Vertex (2 3): A B
+Edge: B
+Vertex (3 4): B C
+Edge: C
+Vertex (4 2): D
+Edge: D
+Vertex (5 3): C D
+Edge: C
+Vertex (7 2): C
+Edge: [empty]
+Vertex (8 3): E
+Edge: [empty]
+Vertex (9 2): F
+Edge: F
+Vertex (10 2): G
+Edge: G
+Vertex (11 0): H
+Edge: G
+Vertex (12 1): G
+Edge: [empty]

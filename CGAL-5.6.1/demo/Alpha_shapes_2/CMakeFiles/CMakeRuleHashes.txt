@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+b64e36717ecb5d763283cfe8c28b99cc CMakeFiles/Alpha_shapes_2_autogen
+e1417e914b68ac96d44e1ee21dd86b79 CMakeFiles/CGAL_Qt5_moc_and_resources_autogen
+a6573b356bf74164e8a3f190cc9a0d3e qrc_Alpha_shapes_2.cpp
+daf87a8ae70af0d59b3901eeb0376ed8 qrc_CGAL.cpp
+57e6e3c31c20a40650ec44f6c66fe3e7 qrc_File.cpp
+f2bc49fdb5939bfa6033e308fc2691b6 qrc_Input.cpp
+f8601481896cd03d9e0dd19a94daea45 qrc_Triangulation_2.cpp
+522b4b9eabdf68bdb3869ae642d0afe7 ui_Alpha_shapes_2.h
+e2d229b7ce9a94e679f3dc71ac1cb485 ui_ImageInterface.h

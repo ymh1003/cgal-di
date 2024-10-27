@@ -1,0 +1,115 @@
+Polyhedron_3
+Invalid input.
+Surface_mesh
+Invalid input.
+Surface_mesh with cached Bbox_3
+2e-06 sec.
+Closest point to ORIGIN:{FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+
+--------------------------------------
+3 intersections(s) with ray query
+closest point is: {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+
+--------------------------------------
+WARNING: > has different result with error terms
+2 intersections(s) with ray query
+closest point is: {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+
+--------------------------------------
+3 intersections(s) with ray query
+closest point is: {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+
+--------------------------------------
+1 intersections(s) with triangle
+closest point is: {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+
+--------------------------------------
+6 intersections(s) with triangle
+closest point is: {FP value: 0.5, FP error: 0}
+ {FP value: 0.5, FP error: 0}
+ {FP value: 0, FP error: 0}
+
+--------------------------------------
+squared distance: {FP value: 4, FP error: 0}
+
+--------------------------------------
+6 intersections(s) with triangle
+closest point is: {FP value: 0.5, FP error: 0}
+ {FP value: 0.5, FP error: 0}
+ {FP value: 0, FP error: 0}
+
+--------------------------------------
+squared distance: {FP value: 4, FP error: 0}
+
+closest point: {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 1, FP error: 0}
+
+closest point: {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 1, FP error: 0}
+
+closest triangle: ( {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ , {FP value: 1, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ , {FP value: 0, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 1, FP error: 0}
+ )
+--------------------------------------
+intersection(s)
+3 intersection(s)
+intersection object is a point {FP value: -0, FP error: -0}
+ {FP value: 0.2, FP error: -2.77556e-17}
+ {FP value: -0, FP error: -0}
+
+--------------------------------------
+ignore f0
+{FP value: 0.333333, FP error: 1.85037e-17}
+ {FP value: 0.333333, FP error: 1.85037e-17}
+ {FP value: 0.333333, FP error: -3.70074e-17}
+
+ignore f1
+{FP value: 0.333333, FP error: 1.85037e-17}
+ {FP value: 0.333333, FP error: -3.70074e-17}
+ {FP value: 0.333333, FP error: 1.85037e-17}
+
+ignore f2
+{FP value: 0.333333, FP error: -3.70074e-17}
+ {FP value: 0.333333, FP error: 1.85037e-17}
+ {FP value: 0.333333, FP error: 1.85037e-17}
+
+ignore f3
+{FP value: -0, FP error: -0}
+ {FP value: -0, FP error: -0}
+ {FP value: -0, FP error: -0}
+
+done
+--------------------------------------
+3 intersections(s) with plane
+3 intersections(s) with triangle
+closest point is: {FP value: 0.5, FP error: 0}
+ {FP value: 0, FP error: 0}
+ {FP value: 0.5, FP error: 0}
+
+--------------------------------------
+3 intersections(s) with ray query
+closest point is: {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+ {FP value: 0.333333, FP error: 7.40149e-17}
+
+squared distance: {FP value: 8.33333, FP error: -5.92119e-16}
+

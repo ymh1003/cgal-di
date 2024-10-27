@@ -1,0 +1,9 @@
+[ 16%] Building CXX object CMakeFiles/convex_hull_2.dir/convex_hull_2.cpp.o
+[ 33%] Linking CXX executable convex_hull_2
+[ 33%] Built target convex_hull_2
+[ 50%] Building CXX object CMakeFiles/envelope_circles.dir/envelope_circles.cpp.o
+[ 66%] Linking CXX executable envelope_circles
+[ 66%] Built target envelope_circles
+[ 83%] Building CXX object CMakeFiles/envelope_segments.dir/envelope_segments.cpp.o
+[100%] Linking CXX executable envelope_segments
+[100%] Built target envelope_segments

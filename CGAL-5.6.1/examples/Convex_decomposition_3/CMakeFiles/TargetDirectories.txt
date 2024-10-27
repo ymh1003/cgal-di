@@ -1,0 +1,5 @@
+/Users/yumenghe/CGAL-5.6.1/examples/Convex_decomposition_3/CMakeFiles/list_of_convex_parts.dir
+/Users/yumenghe/CGAL-5.6.1/examples/Convex_decomposition_3/CMakeFiles/ALL_CGAL_TARGETS.dir
+/Users/yumenghe/CGAL-5.6.1/examples/Convex_decomposition_3/CMakeFiles/cgal_check_build_system.dir
+/Users/yumenghe/CGAL-5.6.1/examples/Convex_decomposition_3/CMakeFiles/edit_cache.dir
+/Users/yumenghe/CGAL-5.6.1/examples/Convex_decomposition_3/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-db8bc88d78c1162fed1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CGAL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_CGAL_TARGETS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_CGAL_TARGETS-Debug-e4f2e112667ffbd4f0ba.json",
+					"name" : "ALL_CGAL_TARGETS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demos-Debug-d3895fbad0ce62013f5e.json",
+					"name" : "demos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples-Debug-09347ac93a03bf2e73bf.json",
+					"name" : "examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "install_FindCGAL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-install_FindCGAL-Debug-98a996312ca9493aa91d.json",
+					"name" : "install_FindCGAL",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yumenghe/CGAL-5.6.1/build",
+		"source" : "/Users/yumenghe/CGAL-5.6.1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

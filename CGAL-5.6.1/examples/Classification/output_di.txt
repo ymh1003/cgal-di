@@ -1,0 +1,103 @@
+Reading input
+Computing useful structures
+Computing features
+Setting weights
+Setting effects
+Classifying
+Raw classification performed in 0.00467396 second(s)
+Classification with local smoothing performed in 0.042618 second(s)
+Classification with graphcut performed in 0.112568 second(s)
+All done
+0 --------------------------------------
+Reading input
+Estimating normals
+Done in 0.069258 second(s)
+Generating pointwise features
+Done in 0.123351 second(s)
+Detecting planes and creating clusters
+139 clusters created in 0.294198 second(s)
+Computing cluster features
+Using ETHZ Random Forest Classifier
+Loading configuration
+Classifying
+Classification done in 0.000164032 second(s)
+1 --------------------------------------
+Usage: ./example_deprecated_conversion input.gz output.bin
+2 --------------------------------------
+Reading input
+Generating features
+Done in 0.133211 second(s)
+Ground truth is valid:
+ * 19853 unclassified item(s) (89.0269%)
+ * 1567 ground inlier(s) (7.02691%)
+ * 314 vegetation inlier(s) (1.40807%)
+ * 566 roof inlier(s) (2.53812%)
+Using ETHZ Random Forest Classifier
+Training
+Done in 0.00695109 second(s)
+Classification with graphcut done in 0.249593 second(s)
+Precision, recall, F1 scores and IoU:
+ * ground: 1 ; 1 ; 1 ; 1
+ * vegetation: 1 ; 1 ; 1 ; 1
+ * roof: 1 ; 1 ; 1 ; 1
+Accuracy = 1
+Mean F1 score = 1
+Mean IoU = 1
+All done
+3 --------------------------------------
+Reading input
+Computing features
+Setting weights
+Setting up labels
+Classifying
+All done
+4 --------------------------------------
+Reading input
+Generating features
+50 feature(s) generated in 0.132898 second(s)
+Training
+Done in 2.36453 second(s)
+Classification with graphcut done in 0.101601 second(s)
+Precision, recall, F1 scores and IoU:
+ * ground: 1 ; 1 ; 1 ; 1
+ * vegetation: 1 ; 1 ; 1 ; 1
+ * roof: 1 ; 1 ; 1 ; 1
+Accuracy = 1
+Mean F1 score = 1
+Mean IoU = 1
+All done
+5 --------------------------------------
+Generating features
+Done in 1.44601 second(s)
+Using ETHZ Random Forest Classifier
+Loading configuration
+Classifying with graphcut
+Classification with graphcut done in 0.232909 second(s)
+6 --------------------------------------
+Reading input
+Generating features
+Done in 0.131118 second(s)
+Using OpenCV Random Forest Classifier
+Training
+Done in 0.00494599 second(s)
+Classification with graphcut done in 0.219243 second(s)
+Precision, recall, F1 scores and IoU:
+ * ground: 0.999362 ; 1 ; 0.999681 ; 0.999362
+ * vegetation: 1 ; 0.984076 ; 0.991974 ; 0.984076
+ * roof: 0.992982 ; 1 ; 0.996479 ; 0.992982
+Accuracy = 0.997957
+Mean F1 score = 0.996045
+Mean IoU = 0.99214
+All done
+7 --------------------------------------
+Usage: ./gis_tutorial_example points.ply
+Running with default value /Users/yumenghe/CGAL-5.6.1/data/points_3/b9_training.ply
+22300 point(s) read
+132 connected component(s) found
+10804 vertices(s) will be removed after filtering
+186 face(s) are selected for removal
+186 face(s) are selected for removal after expansion
+13 hole(s) identified
+Rastering with resolution 1920x2365
+20 polylines computed, with 6319 vertices in total
+104 vertices remaining after simplification (1.64583%)

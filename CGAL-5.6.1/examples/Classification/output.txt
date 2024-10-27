@@ -1,0 +1,23 @@
+[  5%] Building CXX object CMakeFiles/example_classification.dir/example_classification.cpp.o
+[ 11%] Linking CXX executable example_classification
+[ 11%] Built target example_classification
+[ 16%] Building CXX object CMakeFiles/example_ethz_random_forest.dir/example_ethz_random_forest.cpp.o
+[ 22%] Linking CXX executable example_ethz_random_forest
+[ 22%] Built target example_ethz_random_forest
+[ 27%] Building CXX object CMakeFiles/example_feature.dir/example_feature.cpp.o
+[ 33%] Linking CXX executable example_feature
+[ 33%] Built target example_feature
+[ 38%] Building CXX object CMakeFiles/example_generation_and_training.dir/example_generation_and_training.cpp.o
+[ 44%] Linking CXX executable example_generation_and_training
+[ 44%] Built target example_generation_and_training
+[ 50%] Building CXX object CMakeFiles/example_mesh_classification.dir/example_mesh_classification.cpp.o
+[ 55%] Linking CXX executable example_mesh_classification
+[ 55%] Built target example_mesh_classification
+[ 61%] Building CXX object CMakeFiles/example_cluster_classification.dir/example_cluster_classification.cpp.o
+[ 66%] Linking CXX executable example_cluster_classification
+[ 66%] Built target example_cluster_classification
+[ 77%] Built target gis_tutorial_example
+[ 88%] Built target example_deprecated_conversion
+[ 94%] Building CXX object CMakeFiles/example_opencv_random_forest.dir/example_opencv_random_forest.cpp.o
+[100%] Linking CXX executable example_opencv_random_forest
+[100%] Built target example_opencv_random_forest

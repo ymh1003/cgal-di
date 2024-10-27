@@ -1,0 +1,53 @@
+Polyhedron_3
+Invalid input.
+Surface_mesh
+Invalid input.
+Surface_mesh with cached Bbox_3
+1e-06 sec.
+Closest point to ORIGIN:0 0 0
+--------------------------------------
+3 intersections(s) with ray query
+closest point is: 0.333333 0.333333 0.333333
+--------------------------------------
+1 intersections(s) with ray query
+closest point is: 0.333333 0.333333 0.333333
+--------------------------------------
+3 intersections(s) with ray query
+closest point is: 0.333333 0.333333 0.333333
+--------------------------------------
+1 intersections(s) with triangle
+closest point is: 0.333333 0.333333 0.333333
+--------------------------------------
+6 intersections(s) with triangle
+closest point is: 0.5 0.5 0
+--------------------------------------
+squared distance: 4
+--------------------------------------
+6 intersections(s) with triangle
+closest point is: 0.5 0.5 0
+--------------------------------------
+squared distance: 4
+closest point: 0 0 1
+closest point: 0 0 1
+closest triangle: ( 0 0 0 , 1 0 0 , 0 0 1 )
+--------------------------------------
+intersection(s)
+2 intersection(s)
+intersection object is a point 1.85037e-17 0.2 1.85037e-17
+--------------------------------------
+ignore f0
+0.333333 0.333333 0.333333
+ignore f1
+0.333333 0.333333 0.333333
+ignore f2
+0.333333 0.333333 0.333333
+ignore f3
+done
+--------------------------------------
+3 intersections(s) with plane
+3 intersections(s) with triangle
+closest point is: 0.5 0 0.5
+--------------------------------------
+3 intersections(s) with ray query
+closest point is: 0.333333 0.333333 0.333333
+squared distance: 8.33333
