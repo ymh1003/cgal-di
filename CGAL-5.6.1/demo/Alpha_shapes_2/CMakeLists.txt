@@ -16,7 +16,11 @@ endif()
 find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
 
 find_package(Qt5 QUIET COMPONENTS Widgets)
-include_directories(BEFORE ./include)
+include_directories("../../include")
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 
 if(CGAL_Qt5_FOUND AND Qt5_FOUND)
   add_definitions(-DQT_NO_KEYWORDS)
@@ -31,7 +35,7 @@ if(CGAL_Qt5_FOUND AND Qt5_FOUND)
 
   # The executable itself.
   add_executable(
-    Alpha_shapes_2 Alpha_shapes_2.cpp /Users/yumenghe/CGAL-5.6.1/include/CGAL/double_it.cpp
+    Alpha_shapes_2 Alpha_shapes_2.cpp ../../include/CGAL/double_it.cpp
      ${DT_UI_FILES} ${CGAL_Qt5_RESOURCE_FILES}
                    ${CGAL_Qt5_MOC_FILES})
 

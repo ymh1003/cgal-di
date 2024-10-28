@@ -1,3 +1,7 @@
 set -e -x
-python "../CGAL-5.6.1/demo/Alpha_shapes_2/run_alpha_shapes_2_analysis.py"
-python "../CGAL-5.6.1/demo/Alpha_shapes_2/metrics_cal.py"
+cd "../CGAL-5.6.1/demo/Alpha_shapes_2/"
+rm -rf CMakeCache.txt CMakeFiles/
+cmake -DCMAKE_BUILD_TYPE=Release -DCGAL_DIR="../../../CGAL-5.6.1/" .
+make
+python "run_alpha_shapes_2_analysis.py"
+python "metrics_cal.py"
